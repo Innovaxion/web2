@@ -1,0 +1,51 @@
+* {
+    font-family: 'Open sans', cursive;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("bg.jpeg");
+    background-color: #f7f7f7;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section {
+    display: flex;
+    width: 60%;
+    margin: 30px auto;
+}
+
+.nav {
+    display: inline-block;
+}
+.nav li {
+  display: inline-block;
+  padding: 25px;
+}
+
+#idSelectorTest {
+  color: white;
+  border: 10px dotted green;
+}
+
+.classSelectorTest1 {
+    color: white;
+    border: 5px double limegreen;
+    background-color: gray;
+}
+.classSelectorTest1 th {
+    color: white;
+    border: 5px double green;
+    background-color: black;
+}
+.classSelectorTest1 tr {
+    color: yellow;
+    background-color: black;
+}
+.classSelectorTest2 {
+    color: black;
+    border: 5px double limegreen;
+    text-align: center;
+    background-color: white;
+}
